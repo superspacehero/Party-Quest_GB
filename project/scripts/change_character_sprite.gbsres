@@ -1,0 +1,148 @@
+{
+  "_resourceType": "script",
+  "id": "820d2e40-7b55-460c-9e7d-aee56f2e6f85",
+  "name": "Change Character Sprite",
+  "description": "The modulus value of Character is the total number of species.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Character",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Character"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "add",
+        "other": "val",
+        "vectorY": "V0",
+        "value": 1,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false
+      },
+      "id": "77e9ee66-77a2-41b5-9bef-d3f9769d0282"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "mod",
+        "other": "val",
+        "vectorY": "V0",
+        "value": 2,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false
+      },
+      "id": "9a0cfec0-504a-4491-bfed-37fa4e451d66"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305"
+            },
+            "id": "ea80e331-eb2f-4dc6-9c17-7dc5b4056926"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "b1da562e-2d2a-40fa-8ec5-14e82f10b5ad"
+            },
+            "id": "e5213c96-7fe5-4bc9-a0e8-dac365bafcd6"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "1f25644b-358c-4f4e-9dd8-6a7d5ffe952b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "4282bf92-d21c-4f90-8bb5-730ea276d7e7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "0",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "398e0ed5-c8fa-4bb2-a2c5-cd3f3221476d"
+    }
+  ]
+}

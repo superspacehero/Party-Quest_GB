@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "798ff95f-9d33-41d3-b1de-8b8f8c8213b1",
+  "name": "Dummy Character",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

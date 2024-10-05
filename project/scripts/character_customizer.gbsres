@@ -1,0 +1,318 @@
+{
+  "_resourceType": "script",
+  "id": "fe0e1767-270b-4e86-a6d4-4f93737a943e",
+  "name": "Character Customizer",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Choice",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Species",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Name",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Character"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": ""
+      },
+      "id": "1af816e8-25ea-4ccf-8016-4eb042e29d76"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "de3f20e8-81f9-47ad-9d0a-e77faf15096b"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "BR_EVENT_ADVANCED_MENU",
+            "args": {
+              "variable": "V0",
+              "__scriptTabs": "items",
+              "width": 18,
+              "height": 7,
+              "boxX": 1,
+              "boxY": 11,
+              "showBorder": true,
+              "clearPrevious": true,
+              "showActors": true,
+              "items": 4,
+              "__collapseCase$1": false,
+              "option_1_text": "Name",
+              "option1_x": 2,
+              "option1_y": 12,
+              "option1_l": 0,
+              "option1_r": 0,
+              "option1_u": 4,
+              "option1_d": 2,
+              "__collapseCase$2": false,
+              "option_2_text": "Species",
+              "option2_x": 2,
+              "option2_y": 13,
+              "option2_l": 0,
+              "option2_r": 0,
+              "option2_u": 1,
+              "option2_d": 3,
+              "__collapseCase$3": false,
+              "option_3_text": "Color",
+              "option3_x": 2,
+              "option3_y": 14,
+              "option3_l": 0,
+              "option3_r": 0,
+              "option3_u": 2,
+              "option3_d": 4,
+              "__collapseCase$4": false,
+              "option_4_text": "Back",
+              "option4_x": 2,
+              "option4_y": 15,
+              "option4_l": 0,
+              "option4_r": 0,
+              "option4_u": 3,
+              "option4_d": 1,
+              "__collapseCase$5": false,
+              "option_5_text": "",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
+              "option5_d": 0,
+              "__collapseCase$6": false,
+              "option_6_text": "",
+              "option6_x": 0,
+              "option6_y": 0,
+              "option6_l": 0,
+              "option6_r": 0,
+              "option6_u": 0,
+              "option6_d": 0,
+              "__collapseCase$7": false,
+              "option_7_text": "",
+              "option7_x": 0,
+              "option7_y": 0,
+              "option7_l": 0,
+              "option7_r": 0,
+              "option7_u": 0,
+              "option7_d": 0,
+              "__collapseCase$8": false,
+              "option_8_text": "",
+              "option8_x": 0,
+              "option8_y": 0,
+              "option8_l": 0,
+              "option8_r": 0,
+              "option8_u": 0,
+              "option8_d": 0,
+              "__collapseCase$9": false,
+              "option_9_text": "",
+              "option9_x": 0,
+              "option9_y": 0,
+              "option9_l": 0,
+              "option9_r": 0,
+              "option9_u": 0,
+              "option9_d": 0,
+              "__collapseCase$10": false,
+              "option_10_text": "",
+              "option10_x": 0,
+              "option10_y": 0,
+              "option10_l": 0,
+              "option10_r": 0,
+              "option10_u": 0,
+              "option10_d": 0,
+              "__collapseCase$11": false,
+              "option_11_text": "",
+              "option11_x": 0,
+              "option11_y": 0,
+              "option11_l": 0,
+              "option11_r": 0,
+              "option11_u": 0,
+              "option11_d": 0,
+              "__collapseCase$12": false,
+              "option_12_text": "",
+              "option12_x": 0,
+              "option12_y": 0,
+              "option12_l": 0,
+              "option12_r": 0,
+              "option12_u": 0,
+              "option12_d": 0,
+              "__collapseCase$13": false,
+              "option_13_text": "",
+              "option13_x": 0,
+              "option13_y": 0,
+              "option13_l": 0,
+              "option13_r": 0,
+              "option13_u": 0,
+              "option13_d": 0,
+              "__collapseCase$14": false,
+              "option_14_text": "",
+              "option14_x": 0,
+              "option14_y": 0,
+              "option14_l": 0,
+              "option14_r": 0,
+              "option14_u": 0,
+              "option14_d": 0,
+              "__collapseCase$15": false,
+              "option_15_text": "",
+              "option15_x": 0,
+              "option15_y": 0,
+              "option15_l": 0,
+              "option15_r": 0,
+              "option15_u": 0,
+              "option15_d": 0,
+              "__collapseCase$16": false,
+              "option_16_text": "",
+              "option16_x": 0,
+              "option16_y": 0,
+              "option16_l": 0,
+              "option16_r": 0,
+              "option16_u": 0,
+              "option16_d": 0,
+              "__collapse": false
+            },
+            "id": "5353de2f-a63d-4190-9889-d431ae312799"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "2717602f-a710-4c6d-84d3-5f260d6706dc",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "V2"
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 8
+                    }
+                  },
+                  "id": "f500e0b8-bf4c-4b9e-833e-24ac0a365034"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "820d2e40-7b55-460c-9e7d-aee56f2e6f85",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "V1"
+                    },
+                    "__collapse": false,
+                    "$actor[0]$": "0"
+                  },
+                  "id": "e040e958-9f72-48fa-af20-a100d98f4759"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V0",
+                    "value": {
+                      "type": "number",
+                      "value": -1
+                    }
+                  },
+                  "id": "527f85d2-a25c-439e-b754-4c95c686121e"
+                }
+              ]
+            },
+            "id": "e0f94a46-a3ae-47f4-acb4-19914ba118d3"
+          }
+        ]
+      },
+      "id": "c82c5f7b-a5c9-45cd-8ecc-a5b9dc6bccb2"
+    }
+  ]
+}

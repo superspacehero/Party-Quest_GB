@@ -1,0 +1,61 @@
+{
+  "version": "4.2.0-e1",
+  "fields": [
+    {
+      "key": "solid_ladders",
+      "label": "Toggleable Collision",
+      "group": "Adventure",
+      "type": "select",
+      "options": [
+        [0, "Passable"],
+        [1, "Impassable"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "swimming",
+      "label": "Swimming",
+      "group": "Adventure",
+      "type": "select",
+      "options": [
+        [0, "Not swimming"],
+        [1, "Swimming"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "sprite_mode",
+      "label": "Sprite Mode",
+      "group": "Adventure",
+      "type": "select",
+      "options": [
+        [0, "2-directional"],
+        [1, "4-directional"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 0
+    },
+    {
+      "key": "jump_height",
+      "label": "Jump Height",
+      "group": "Adventure",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 40,
+      "min": 0,
+      "max": 128
+    },
+    {
+      "key": "gravity",
+      "label": "Gravity",
+      "group": "Adventure",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 4,
+      "min": 1,
+      "max": 8
+    }
+  ]
+}

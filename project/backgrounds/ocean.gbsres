@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c8ffe286-f80f-4204-86d7-a1c0b17bc4e0",
+  "name": "ocean",
+  "symbol": "bg_ocean",
+  "width": 60,
+  "height": 60,
+  "imageWidth": 480,
+  "imageHeight": 480,
+  "filename": "ocean.png",
+  "tileColors": "",
+  "autoColor": true
+}

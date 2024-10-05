@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "52d2ae34-da6a-4920-ae66-16dce20994de",
+  "name": "tilemap_forest",
+  "symbol": "bg_tilemap_forest",
+  "width": 16,
+  "height": 17,
+  "imageWidth": 128,
+  "imageHeight": 136,
+  "filename": "tilemap_forest.png",
+  "tileColors": "",
+  "autoColor": false
+}

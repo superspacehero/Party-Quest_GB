@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a9d3a234-e195-4eaf-9951-2ffd9bbe8b32",
+  "_index": 2,
+  "name": "Tilemap_Grass",
+  "backgroundId": "386a7b75-af0d-4ba7-9b43-850d8d79ead1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 736,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

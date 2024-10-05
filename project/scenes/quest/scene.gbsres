@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c24dec88-2939-4472-b82f-e32f7d6761d7",
+  "_index": 3,
+  "name": "Quest",
+  "backgroundId": "e425226a-d7a9-4711-be20-5582c87b9c75",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 240,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305"
+}

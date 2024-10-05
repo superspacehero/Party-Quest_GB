@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1eb383fc-9668-44fe-89c4-53f58fc99a5d",
+  "name": "customization_character",
+  "symbol": "bg_customization",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "customization_character.png",
+  "tileColors": "002+02!00e+02!004+0210+004+0210+004+0210+004+0210+004+0210+004+0210+004+0210+004+0210+004+0210+004+02!00e+02!002+052+02!05e+02!054+02!05e+02!0566+",
+  "autoColor": false
+}

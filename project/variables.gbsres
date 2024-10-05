@@ -1,0 +1,115 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Title Shown",
+      "symbol": "var_title_shown"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
+      "name": "Tile",
+      "symbol": "var_tile_0"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L1",
+      "name": "Placing",
+      "symbol": "var_placing"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L0",
+      "name": "Placing",
+      "symbol": "var_placing_0"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L1",
+      "name": "X",
+      "symbol": "var_x"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L2",
+      "name": "Y",
+      "symbol": "var_y"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L0",
+      "name": "Tile",
+      "symbol": "var_tile"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L1",
+      "name": "Placing",
+      "symbol": "var_placing_1"
+    },
+    {
+      "id": "dd7db7f4-ee5d-41bb-b0c1-e6a0c1678d36__L0",
+      "name": "Placing",
+      "symbol": "var_placing_2"
+    },
+    {
+      "id": "dd7db7f4-ee5d-41bb-b0c1-e6a0c1678d36__L1",
+      "name": "X",
+      "symbol": "var_x_0"
+    },
+    {
+      "id": "dd7db7f4-ee5d-41bb-b0c1-e6a0c1678d36__L2",
+      "name": "Y",
+      "symbol": "var_y_0"
+    },
+    {
+      "id": "60e9d038-a4cc-473c-8384-b5195ac898d2__L0",
+      "name": "Menu Choice",
+      "symbol": "var_menu_choice"
+    },
+    {
+      "id": "60e9d038-a4cc-473c-8384-b5195ac898d2__L1",
+      "name": "Pressed",
+      "symbol": "var_pressed"
+    },
+    {
+      "id": "cf4aa1b5-72f1-4622-a31c-de4339eee070__L0",
+      "name": "Menu Choice",
+      "symbol": "var_menu_choice_0"
+    },
+    {
+      "id": "cf4aa1b5-72f1-4622-a31c-de4339eee070__L1",
+      "name": "Selected",
+      "symbol": "var_selected_0"
+    },
+    {
+      "id": "b8fe1183-e29a-483b-aa47-3bad609d38d6__L0",
+      "name": "Menu Choice",
+      "symbol": "var_menu_choice_1"
+    },
+    {
+      "id": "b8fe1183-e29a-483b-aa47-3bad609d38d6__L1",
+      "name": "Character",
+      "symbol": "var_character"
+    },
+    {
+      "id": "b8fe1183-e29a-483b-aa47-3bad609d38d6__L2",
+      "name": "Species",
+      "symbol": "var_species"
+    },
+    {
+      "id": "b8fe1183-e29a-483b-aa47-3bad609d38d6__L3",
+      "name": "Name",
+      "symbol": "var_name"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L5",
+      "name": "Selecting",
+      "symbol": "var_selecting"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L3",
+      "name": "Tile X",
+      "symbol": "var_tile_x"
+    },
+    {
+      "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L4",
+      "name": "Tile Y",
+      "symbol": "var_tile_y"
+    }
+  ]
+}

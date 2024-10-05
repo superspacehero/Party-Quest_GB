@@ -1,0 +1,92 @@
+{
+  "_resourceType": "scene",
+  "id": "b8fe1183-e29a-483b-aa47-3bad609d38d6",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "Character Customization",
+  "symbol": "scene_6",
+  "x": 60,
+  "y": 384,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1eb383fc-9668-44fe-89c4-53f58fc99a5d",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "d294248c-81ed-4c04-adcb-85f227d45e69"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "4d2e2a30-14bb-43de-807b-ef014d37b465",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "198d4cde-9637-4c8e-a7d7-3f66ba894e89"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-3"
+      },
+      "id": "405724eb-451a-438b-8b39-b712f2b43db9"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "86662957-7b6c-49f1-87bd-4eb60cf6f4d0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fe0e1767-270b-4e86-a6d4-4f93737a943e",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$actor[0]$": "2d9696bd-d847-4fd4-9174-5ed4b8d83643"
+      },
+      "id": "9604d182-071e-4cba-9476-2209cb55d703"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "fe8e718b-1830-4e53-96b9-1cba1ba4d501",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d9bf6da5-3445-454b-a271-ac19a4f6a66c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

@@ -1,0 +1,58 @@
+{
+  "_resourceType": "script",
+  "id": "2717602f-a710-4c6d-84d3-5f260d6706dc",
+  "name": "Text Input",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Text Reference",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Text Max Length",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_TEXT_INPUT",
+      "args": {
+        "variable": "V0",
+        "__scriptTabs": "items",
+        "showBorder": true,
+        "clearPrevious": true,
+        "showActors": true,
+        "items": 2,
+        "__collapseCase$1": false,
+        "keyboard_1_layout": " 1 2 3 4 5 6 7 8 9 0\n Q W E R T Y U I O P\n A S D F G H J K L :\n Z X C V B N M < > ?\n UPPER   Space  Done",
+        "option1_x": 0,
+        "option1_y": 13,
+        "__collapseCase$2": false,
+        "keyboard_2_layout": " ! @ # $ % ^ & * ( )\n q w e r t y u i o p\n a s d f g h j k l ;\n z x c v b n m , . /\n lower   Space  Done",
+        "option2_x": 0,
+        "option2_y": 13,
+        "__collapseCase$3": false,
+        "keyboard_3_layout": " 1 2 3 4 5 6 7 8 9 0\n Q W E R T Y U I O P\n A S D F G H J K L :\n Z X C V B N M < > ?\n UPPER   Space  Done",
+        "option3_x": 0,
+        "option3_y": 0,
+        "__collapseCase$4": false,
+        "keyboard_4_layout": " 1 2 3 4 5 6 7 8 9 0\n Q W E R T Y U I O P\n A S D F G H J K L :\n Z X C V B N M < > ?\n UPPER   Space  Done",
+        "option4_x": 0,
+        "option4_y": 0,
+        "text_max_length": "V1",
+        "text_position_x": 6,
+        "text_position_y": 3,
+        "keyboard2_y": 13,
+        "keyboard1_y": 13,
+        "keyboard1_x": 0,
+        "keyboard2_x": 0,
+        "__collapse": false
+      },
+      "id": "6f9bcefc-8012-49f5-993b-bbb2fb1a91fb"
+    }
+  ]
+}
