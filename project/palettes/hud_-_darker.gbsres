@@ -1,0 +1,11 @@
+{
+  "_resourceType": "palette",
+  "id": "8bf26ddc-ab45-4a48-bd32-c08bc16a8f7c",
+  "name": "HUD - Darker",
+  "colors": [
+    "C0C0C0",
+    "808080",
+    "404040",
+    "000000"
+  ]
+}

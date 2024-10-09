@@ -3,10 +3,10 @@
   "id": "default-ui",
   "name": "Default UI",
   "colors": [
-    "0800A8",
-    "888888",
+    "F8F8F8",
     "ffff00",
-    "F8F8F8"
+    "8c8c8c",
+    "0800A8"
   ],
   "defaultName": "Default UI",
   "defaultColors": [

@@ -10,12 +10,44 @@
   "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "00f0+0f14+0064+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 240,
-  "y": 32,
-  "script": [],
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V5]$": {
+          "type": "variable",
+          "value": "L5"
+        }
+      },
+      "id": "0c58fc94-d4f1-4387-99b4-610c019dc4e3"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

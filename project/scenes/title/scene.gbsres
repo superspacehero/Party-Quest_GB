@@ -13,9 +13,9 @@
   "backgroundId": "fd88ad4d-c924-4cbe-aba1-1985311ed3de",
   "tilesetId": "",
   "paletteIds": [
-    "",
-    "",
-    "",
+    "2c72abc6-c760-4f57-a65d-7ce8667a5fc5",
+    "default-bg-1",
+    "adef335f-ad2a-4748-9339-fdcf88a2e76c",
     "",
     "",
     "adef335f-ad2a-4748-9339-fdcf88a2e76c",
@@ -80,7 +80,7 @@
         "palette2": "keep",
         "palette3": "keep",
         "palette4": "keep",
-        "palette5": "default-bg-6",
+        "palette5": "2c72abc6-c760-4f57-a65d-7ce8667a5fc5",
         "palette6": "keep",
         "palette7": "keep"
       },
@@ -330,7 +330,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2",
@@ -350,7 +350,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2"
