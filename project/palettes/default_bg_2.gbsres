@@ -3,10 +3,10 @@
   "id": "default-bg-2",
   "name": "Default BG 2",
   "colors": [
-    "E0F8A0",
-    "78C838",
-    "488818",
-    "081800"
+    "F8F8F8",
+    "A8A8A8",
+    "585858",
+    "000000"
   ],
   "defaultName": "Default BG 2",
   "defaultColors": [

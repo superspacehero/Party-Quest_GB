@@ -2,39 +2,58 @@
   "_resourceType": "scene",
   "id": "f73f031e-c329-457f-a445-e20f80f8ee02",
   "_index": 1,
-  "name": "Quest Maker",
-  "backgroundId": "e425226a-d7a9-4711-be20-5582c87b9c75",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "ADVENTURE",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "Quest Maker",
   "symbol": "scene_2",
   "x": 240,
   "y": 208,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "2666b119-45c3-4c3b-baa4-dfb7f636f53d",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "8bf26ddc-ab45-4a48-bd32-c08bc16a8f7c"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305",
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "input": [
-          "b",
-          "a",
-          "select"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
+        "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V5]$": {
+          "type": "variable",
+          "value": "L0"
+        }
       },
-      "children": {
-        "true": []
-      },
-      "id": "9948451e-926b-4823-930d-ee30087900a9"
+      "id": "5a3b3a05-f155-45e4-85d6-1d34b02d781c"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305"
+  "collisions": "00f0+0f14+0064+"
 }

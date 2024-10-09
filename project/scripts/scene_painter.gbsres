@@ -1,0 +1,898 @@
+{
+  "_resourceType": "script",
+  "id": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
+  "name": "Scene Painter",
+  "description": "",
+  "variables": {
+    "V1": {
+      "id": "V1",
+      "name": "Position X",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Position Y",
+      "passByReference": false
+    },
+    "V4": {
+      "id": "V4",
+      "name": "Tile Position X",
+      "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "Tile Position Y",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "V1",
+        "from": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "comparison": "<",
+        "to": {
+          "type": "number",
+          "value": 20
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP_FOR",
+            "args": {
+              "variable": "V2",
+              "from": {
+                "type": "variable",
+                "value": "V2"
+              },
+              "comparison": "<",
+              "to": {
+                "type": "number",
+                "value": 12
+              },
+              "operation": "+=",
+              "value": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "FO_EVENT_SWAP_TILES_VAR",
+                  "args": {
+                    "tabs": "default",
+                    "_tileset": "",
+                    "tileLength": 20,
+                    "tilesize": 2,
+                    "frames": 1,
+                    "wait": 0,
+                    "items": 1,
+                    "tile1_x": {
+                      "type": "variable",
+                      "value": "V1"
+                    },
+                    "tile1_y": {
+                      "type": "variable",
+                      "value": "V2"
+                    },
+                    "swap1_x": {
+                      "type": "variable",
+                      "value": "V4"
+                    },
+                    "swap1_y": {
+                      "type": "variable",
+                      "value": "V5"
+                    },
+                    "tile2_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile2_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap2_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap2_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile3_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile3_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap3_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap3_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile4_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile4_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap4_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap4_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile5_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile5_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap5_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap5_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile6_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile6_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap6_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap6_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile7_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile7_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap7_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap7_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile8_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile8_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap8_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap8_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile9_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile9_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap9_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap9_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile10_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile10_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap10_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap10_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile11_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile11_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap11_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap11_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile12_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile12_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap12_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap12_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile13_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile13_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap13_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap13_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile14_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile14_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap14_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap14_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile15_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile15_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap15_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap15_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile16_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile16_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap16_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap16_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile17_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile17_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap17_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap17_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile18_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile18_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap18_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap18_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile19_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile19_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap19_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap19_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile20_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile20_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap20_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap20_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile21_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile21_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap21_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap21_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile22_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile22_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap22_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap22_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile23_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile23_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap23_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap23_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile24_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile24_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap24_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap24_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile25_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile25_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap25_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap25_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile26_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile26_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap26_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap26_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile27_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile27_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap27_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap27_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile28_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile28_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap28_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap28_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile29_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile29_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap29_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap29_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile30_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile30_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap30_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap30_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile31_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile31_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap31_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap31_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile32_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile32_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap32_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap32_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile33_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile33_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap33_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap33_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile34_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile34_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap34_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap34_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile35_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile35_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap35_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap35_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile36_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile36_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap36_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap36_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile37_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile37_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap37_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap37_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile38_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile38_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap38_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap38_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile39_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile39_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap39_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap39_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile40_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile40_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap40_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap40_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile41_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile41_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap41_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap41_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile42_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile42_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap42_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap42_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile43_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile43_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap43_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap43_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile44_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile44_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap44_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap44_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile45_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile45_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap45_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap45_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile46_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile46_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap46_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap46_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile47_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile47_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap47_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap47_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile48_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile48_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap48_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap48_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile49_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile49_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap49_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap49_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile50_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tile50_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap50_x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "swap50_y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tilemapName": "386a7b75-af0d-4ba7-9b43-850d8d79ead1",
+                    "init": false
+                  },
+                  "id": "871f2603-6463-47e4-ac52-5f881e33a1cb"
+                }
+              ]
+            },
+            "id": "03243c42-498d-4a21-a514-4cc18c1d82db"
+          }
+        ]
+      },
+      "id": "df15ab93-3d38-4e72-af39-d4d15dd85492"
+    }
+  ]
+}

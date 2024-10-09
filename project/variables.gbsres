@@ -8,8 +8,8 @@
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
-      "name": "Tile",
-      "symbol": "var_tile_0"
+      "name": "Position",
+      "symbol": "var_position"
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L1",
@@ -19,7 +19,11 @@
     {
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L0",
       "name": "Placing",
-      "symbol": "var_placing_0"
+      "symbol": "var_placing_0",
+      "flags": {
+        "flag2": "Secondary",
+        "flag1": "Primary"
+      }
     },
     {
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L1",
@@ -99,7 +103,12 @@
     {
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L5",
       "name": "Selecting",
-      "symbol": "var_selecting"
+      "symbol": "var_selecting",
+      "flags": {
+        "flag1": "On",
+        "flag2": "Primary",
+        "flag3": "Secondary"
+      }
     },
     {
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L3",
@@ -110,6 +119,46 @@
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L4",
       "name": "Tile Y",
       "symbol": "var_tile_y"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L2",
+      "name": "X",
+      "symbol": "var_x_1"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L3",
+      "name": "Y",
+      "symbol": "var_y_1"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L4",
+      "name": "Tile X",
+      "symbol": "var_tile_x_0"
+    },
+    {
+      "id": "c24dec88-2939-4472-b82f-e32f7d6761d7__L5",
+      "name": "Tile Y",
+      "symbol": "var_tile_y_0"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L2",
+      "name": "X",
+      "symbol": "var_x_2"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L3",
+      "name": "Y",
+      "symbol": "var_y_2"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L4",
+      "name": "Tile Position",
+      "symbol": "var_tile_position"
+    },
+    {
+      "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L5",
+      "name": "Actor Position",
+      "symbol": "var_actor_position"
     }
   ]
 }
