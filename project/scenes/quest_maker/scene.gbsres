@@ -14,7 +14,7 @@
   "paletteIds": [
     "",
     "",
-    "8bf26ddc-ab45-4a48-bd32-c08bc16a8f7c"
+    "e87e0b93-cb69-4e8c-8c31-70694198acbb"
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
@@ -25,20 +25,22 @@
       "args": {
         "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "L0"
+          "type": "property",
+          "target": "e5c3d57e-121d-4fa6-8c98-65743b333151",
+          "property": "xpos"
         },
         "$variable[V1]$": {
-          "type": "variable",
-          "value": "L2"
+          "type": "property",
+          "target": "e5c3d57e-121d-4fa6-8c98-65743b333151",
+          "property": "ypos"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "L3"
+          "value": "L4"
         },
         "$variable[V3]$": {
           "type": "variable",
-          "value": "L4"
+          "value": "L5"
         },
         "$variable[V4]$": {
           "type": "variable",
@@ -55,5 +57,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00f0+0f14+0064+"
+  "collisions": "00168+"
 }

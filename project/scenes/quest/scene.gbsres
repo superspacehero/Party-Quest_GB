@@ -2,19 +2,23 @@
   "_resourceType": "scene",
   "id": "c24dec88-2939-4472-b82f-e32f7d6761d7",
   "_index": 3,
-  "name": "Quest",
-  "backgroundId": "e425226a-d7a9-4711-be20-5582c87b9c75",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "ADVENTURE",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00f0+0f14+0064+",
-  "autoFadeSpeed": 1,
+  "name": "Quest",
   "symbol": "scene_4",
   "x": 240,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "e425226a-d7a9-4711-be20-5582c87b9c75",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "e87e0b93-cb69-4e8c-8c31-70694198acbb"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -22,15 +26,15 @@
         "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
         "$variable[V0]$": {
           "type": "variable",
-          "value": "L2"
+          "value": "T0"
         },
         "$variable[V1]$": {
           "type": "variable",
-          "value": "L2"
+          "value": "T1"
         },
         "$variable[V2]$": {
           "type": "variable",
-          "value": "L3"
+          "value": "L4"
         },
         "$variable[V3]$": {
           "type": "variable",
@@ -51,5 +55,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "ddc6d9bc-31c0-46eb-bb61-360b19db0305"
+  "collisions": "00168+"
 }

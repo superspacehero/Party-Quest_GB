@@ -2,6 +2,26 @@
   "version": "4.2.0-e1",
   "fields": [
     {
+      "key": "dimensions_x",
+      "label": "Screen Dimensions-X",
+      "group": "Adventure",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 160,
+      "min": 1,
+      "max": 160
+    },
+    {
+      "key": "dimensions_y",
+      "label": "Screen Dimensions-Y",
+      "group": "Adventure",
+      "type": "slider",
+      "cType": "WORD",
+      "defaultValue": 96,
+      "min": 1,
+      "max": 144
+    },
+    {
       "key": "solid_ladders",
       "label": "Toggleable Collision",
       "group": "Adventure",

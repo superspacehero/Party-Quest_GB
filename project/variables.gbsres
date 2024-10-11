@@ -3,8 +3,19 @@
   "variables": [
     {
       "id": "0",
-      "name": "Title Shown",
-      "symbol": "var_title_shown"
+      "name": "Flags",
+      "symbol": "var_flags",
+      "flags": {
+        "flag1": "Title Shown",
+        "flag2": "Paused",
+        "flag3": "Inventory",
+        "flag4": "Flag 4"
+      }
+    },
+    {
+      "id": "1",
+      "name": "X",
+      "symbol": "var_x_3"
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
@@ -18,8 +29,8 @@
     },
     {
       "id": "e5c3d57e-121d-4fa6-8c98-65743b333151__L0",
-      "name": "Placing",
-      "symbol": "var_placing_0",
+      "name": "Level Edit Flags",
+      "symbol": "var_level_edit_flags",
       "flags": {
         "flag2": "Secondary",
         "flag1": "Primary"
@@ -63,7 +74,7 @@
     {
       "id": "60e9d038-a4cc-473c-8384-b5195ac898d2__L0",
       "name": "Menu Choice",
-      "symbol": "var_menu_choice"
+      "symbol": "var_menu_choice_2"
     },
     {
       "id": "60e9d038-a4cc-473c-8384-b5195ac898d2__L1",
@@ -152,13 +163,38 @@
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L4",
-      "name": "Tile Position",
-      "symbol": "var_tile_position"
+      "name": "Tile X",
+      "symbol": "var_tile_x_1"
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L5",
-      "name": "Actor Position",
-      "symbol": "var_actor_position"
+      "name": "Tile Y",
+      "symbol": "var_tile_y_1"
+    },
+    {
+      "id": "2",
+      "name": "Y",
+      "symbol": "var_y_3"
+    },
+    {
+      "id": "3",
+      "name": "Tile X",
+      "symbol": "var_tile_x_2"
+    },
+    {
+      "id": "4",
+      "name": "Tile Y",
+      "symbol": "var_tile_y_2"
+    },
+    {
+      "id": "5",
+      "name": "Previous X",
+      "symbol": "var_previous_x"
+    },
+    {
+      "id": "6",
+      "name": "Previous Y",
+      "symbol": "var_previous_y"
     }
   ]
 }
