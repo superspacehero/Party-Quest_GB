@@ -23,6 +23,7 @@ UBYTE initialized = 0;
 
 WORD dimensions_x = 160;
 WORD dimensions_y = 88;
+UBYTE wrap_player = 1;
 
 point16_t dimensions_padding;
 
@@ -355,23 +356,47 @@ void adventure_update(void) BANKED
 		}
 		visual_pos.y = new_pos.y;
 	}
-	// Wrap around screen edges
-	if (visual_pos.x < 0)
-	{
-		visual_pos.x = (dimensions_x - dimensions_padding.x) << 4;
-	}
-	else if (visual_pos.x > ((dimensions_x - dimensions_padding.x) << 4))
-	{
-		visual_pos.x = 0;
-	}
 
-	if (visual_pos.y < dimensions_padding.y << 4)
+	// Wrap around screen edges
+	if (wrap_player)
 	{
-		visual_pos.y = (dimensions_y - dimensions_padding.y) << 4;
+		if (visual_pos.x < 0)
+		{
+			visual_pos.x = (dimensions_x - dimensions_padding.x) << 4;
+		}
+		else if (visual_pos.x > ((dimensions_x - dimensions_padding.x) << 4))
+		{
+			visual_pos.x = 0;
+		}
+
+		if (visual_pos.y < dimensions_padding.y << 4)
+		{
+			visual_pos.y = (dimensions_y - dimensions_padding.y) << 4;
+		}
+		else if (visual_pos.y > ((dimensions_y - dimensions_padding.y) << 4))
+		{
+			visual_pos.y = dimensions_padding.y << 4;
+		}
 	}
-	else if (visual_pos.y > ((dimensions_y - dimensions_padding.y) << 4))
+	else
 	{
-		visual_pos.y = dimensions_padding.y << 4;
+		if (visual_pos.x < 0)
+		{
+			visual_pos.x = 0;
+		}
+		else if (visual_pos.x > ((dimensions_x - dimensions_padding.x) << 4))
+		{
+			visual_pos.x = (dimensions_x - dimensions_padding.x) << 4;
+		}
+
+		if (visual_pos.y < dimensions_padding.y << 4)
+		{
+			visual_pos.y = dimensions_padding.y << 4;
+		}
+		else if (visual_pos.y > ((dimensions_y - dimensions_padding.y) << 4))
+		{
+			visual_pos.y = (dimensions_y - dimensions_padding.y) << 4;
+		}
 	}
 
 	if (new_dir != DIR_NONE)

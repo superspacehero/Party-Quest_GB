@@ -23,6 +23,17 @@
         "actorId": "$self$"
       },
       "id": "d3e4866f-b933-4a25-804d-b4c401c7ad92"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "82051485-0c37-4393-9c19-f1c07bcbf52e"
     }
   ],
   "updateScript": [

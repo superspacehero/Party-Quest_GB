@@ -18,6 +18,31 @@
       "symbol": "var_x_3"
     },
     {
+      "id": "2",
+      "name": "Y",
+      "symbol": "var_y_3"
+    },
+    {
+      "id": "3",
+      "name": "Tile X",
+      "symbol": "var_tile_x_2"
+    },
+    {
+      "id": "4",
+      "name": "Tile Y",
+      "symbol": "var_tile_y_2"
+    },
+    {
+      "id": "5",
+      "name": "Previous X",
+      "symbol": "var_previous_x"
+    },
+    {
+      "id": "6",
+      "name": "Previous Y",
+      "symbol": "var_previous_y"
+    },
+    {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
       "name": "Position",
       "symbol": "var_position"
@@ -172,29 +197,14 @@
       "symbol": "var_tile_y_1"
     },
     {
-      "id": "2",
-      "name": "Y",
-      "symbol": "var_y_3"
+      "id": "7",
+      "name": "Action X",
+      "symbol": "var_action_x"
     },
     {
-      "id": "3",
-      "name": "Tile X",
-      "symbol": "var_tile_x_2"
-    },
-    {
-      "id": "4",
-      "name": "Tile Y",
-      "symbol": "var_tile_y_2"
-    },
-    {
-      "id": "5",
-      "name": "Previous X",
-      "symbol": "var_previous_x"
-    },
-    {
-      "id": "6",
-      "name": "Previous Y",
-      "symbol": "var_previous_y"
+      "id": "8",
+      "name": "Action Y",
+      "symbol": "var_action_y"
     }
   ]
 }

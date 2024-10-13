@@ -830,7 +830,8 @@
         },
         "tilemapName": "386a7b75-af0d-4ba7-9b43-850d8d79ead1",
         "init": false,
-        "collapseTile1": false
+        "collapseTile1": false,
+        "palette1": 0
       },
       "id": "871f2603-6463-47e4-ac52-5f881e33a1cb"
     },

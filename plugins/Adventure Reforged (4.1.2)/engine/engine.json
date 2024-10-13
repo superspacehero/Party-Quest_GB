@@ -22,6 +22,18 @@
       "max": 144
     },
     {
+      "key": "wrap_player",
+      "label": "Wrap Player",
+      "group": "Adventure",
+      "type": "select",
+      "options": [
+        [0, "No Wrap"],
+        [1, "Wrap"]
+      ],
+      "cType": "UBYTE",
+      "defaultValue": 1
+    },
+    {
       "key": "solid_ladders",
       "label": "Toggleable Collision",
       "group": "Adventure",
