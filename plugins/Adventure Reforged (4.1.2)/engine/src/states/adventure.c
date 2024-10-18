@@ -14,6 +14,7 @@
 #include "rand.h"
 #include "vm.h"
 #include "math.h"
+#include "fade_manager.h"
 
 #ifndef ADVENTURE_CAMERA_DEADZONE
 #define ADVENTURE_CAMERA_DEADZONE 8
@@ -24,6 +25,7 @@ UBYTE initialized = 0;
 WORD dimensions_x = 160;
 WORD dimensions_y = 88;
 UBYTE wrap_player = 1;
+UBYTE wrapping = FALSE;
 
 point16_t dimensions_padding;
 
@@ -58,7 +60,7 @@ void adventure_update_sprite_mode(WORD new_direction) BANKED
 		}
 	}
 
-	actor_set_dir(&PLAYER, visual_dir, player_moving);
+	actor_set_dir(&PLAYER, (wrapping) ? DIR_DOWN : visual_dir, player_moving);
 }
 
 void adventure_init(void) BANKED
@@ -68,6 +70,8 @@ void adventure_init(void) BANKED
 		return;
 	}
 	initialized = 1;
+
+	wrapping = FALSE;
 
 	// Set camera to follow player
 	camera_offset_x = 0;
@@ -131,7 +135,16 @@ void adventure_update(void) BANKED
 	player_moving = FALSE;
 	old_pos = PLAYER.pos;
 
-	new_dir = DIR_NONE;
+	// Fade in when wrapping
+	if (wrapping)
+	{
+		wrapping = FALSE;
+		return;
+	}
+	else
+	{
+		new_dir = DIR_NONE;
+	}
 
 	if (INPUT_RECENT_LEFT)
 	{
@@ -357,25 +370,29 @@ void adventure_update(void) BANKED
 		visual_pos.y = new_pos.y;
 	}
 
-	// Wrap around screen edges
 	if (wrap_player)
 	{
+		// Wrap around screen edges
 		if (visual_pos.x < 0)
 		{
 			visual_pos.x = (dimensions_x - dimensions_padding.x) << 4;
+			wrapping = TRUE;
 		}
 		else if (visual_pos.x > ((dimensions_x - dimensions_padding.x) << 4))
 		{
 			visual_pos.x = 0;
+			wrapping = TRUE;
 		}
 
 		if (visual_pos.y < dimensions_padding.y << 4)
 		{
 			visual_pos.y = (dimensions_y - dimensions_padding.y) << 4;
+			wrapping = TRUE;
 		}
 		else if (visual_pos.y > ((dimensions_y - dimensions_padding.y) << 4))
 		{
 			visual_pos.y = dimensions_padding.y << 4;
+			wrapping = TRUE;
 		}
 	}
 	else
@@ -397,6 +414,8 @@ void adventure_update(void) BANKED
 		{
 			visual_pos.y = (dimensions_y - dimensions_padding.y) << 4;
 		}
+
+		wrapping = FALSE;
 	}
 
 	if (new_dir != DIR_NONE)
@@ -405,7 +424,7 @@ void adventure_update(void) BANKED
 	}
 	else
 	{
-		actor_set_anim_idle(&PLAYER);
+		actor_set_dir(&PLAYER, visual_dir, player_moving);
 	}
 
 	// Gravity
@@ -475,6 +494,9 @@ void adventure_update(void) BANKED
 	}
 
 	// Update the player's position
-	PLAYER.pos.x = visual_pos.x;
-	PLAYER.pos.y = visual_pos.y - z;
+	if (!wrapping)
+	{
+		PLAYER.pos.x = visual_pos.x;
+		PLAYER.pos.y = visual_pos.y - z;
+	}
 }

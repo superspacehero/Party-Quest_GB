@@ -1,20 +1,15 @@
 {
-  "_resourceType": "actor",
-  "id": "e5c3d57e-121d-4fa6-8c98-65743b333151",
-  "name": "Game Manager",
+  "_resourceType": "actorPrefab",
+  "id": "2bf3a4dd-dfa0-4c8a-a54d-3ea9ef474fc3",
+  "name": "Level Editor",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "4d2e2a30-14bb-43de-807b-ef014d37b465",
-  "prefabId": "",
-  "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
-  "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
-  "symbol": "actor_3",
   "script": [],
   "startScript": [
     {
@@ -22,7 +17,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "d3e4866f-b933-4a25-804d-b4c401c7ad92"
+      "id": "24df4c12-b70f-4b6e-b700-6d355c39c855"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -33,7 +28,7 @@
           "value": "L0"
         }
       },
-      "id": "82051485-0c37-4393-9c19-f1c07bcbf52e"
+      "id": "877c9ec2-3949-4918-9c87-7207aa137b62"
     }
   ],
   "updateScript": [
@@ -46,13 +41,10 @@
           "value": "L0"
         }
       },
-      "id": "b722126a-508f-4847-9901-105a1f6e16c9"
+      "id": "caab39ef-2a9e-4dbe-8ab5-101b3ab7a0b5"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 0,
-  "y": 0,
-  "_index": 0
+  "hit3Script": []
 }

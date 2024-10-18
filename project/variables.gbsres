@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "Flags",
-      "symbol": "var_flags",
+      "symbol": "var_flags_0",
       "flags": {
         "flag1": "Title Shown",
         "flag2": "Paused",
@@ -41,6 +41,16 @@
       "id": "6",
       "name": "Previous Y",
       "symbol": "var_previous_y"
+    },
+    {
+      "id": "7",
+      "name": "Action X",
+      "symbol": "var_action_x"
+    },
+    {
+      "id": "8",
+      "name": "Action Y",
+      "symbol": "var_action_y"
     },
     {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
@@ -197,14 +207,19 @@
       "symbol": "var_tile_y_1"
     },
     {
-      "id": "7",
-      "name": "Action X",
-      "symbol": "var_action_x"
+      "id": "8ca36b3e-3f4b-484e-a1b1-249b47259f8b__L0",
+      "name": "Speed",
+      "symbol": "var_speed"
     },
     {
-      "id": "8",
-      "name": "Action Y",
-      "symbol": "var_action_y"
+      "id": "dbc3c0a7-f620-46a3-982e-da952b5e703f__L0",
+      "name": "Level Edit Flags",
+      "symbol": "var_level_edit_flags_2"
+    },
+    {
+      "id": "2bf3a4dd-dfa0-4c8a-a54d-3ea9ef474fc3__L0",
+      "name": "Level Edit Flags",
+      "symbol": "var_level_edit_flags_1"
     }
   ]
 }

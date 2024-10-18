@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "48e558e5-3b53-49ea-848f-34c6b2a707cb",
+  "name": "Load Level",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_LOAD_DATA",
+      "args": {
+        "saveSlot": 0
+      },
+      "id": "48da2b41-dff2-4801-9791-eb010d7a5c33"
+    }
+  ]
+}

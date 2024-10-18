@@ -1,0 +1,43 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "8ca36b3e-3f4b-484e-a1b1-249b47259f8b",
+  "name": "Train",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7e971d97-7cf4-494c-91b9-4290a8464b1d",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "0ee0e507-c783-4ecf-adae-5a1336229286"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "a0e5c646-7679-4211-b875-7f2c545270f0"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -25,14 +25,12 @@
       "args": {
         "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
         "$variable[V0]$": {
-          "type": "property",
-          "target": "e5c3d57e-121d-4fa6-8c98-65743b333151",
-          "property": "xpos"
+          "type": "number",
+          "value": 0
         },
         "$variable[V1]$": {
-          "type": "property",
-          "target": "e5c3d57e-121d-4fa6-8c98-65743b333151",
-          "property": "ypos"
+          "type": "number",
+          "value": 0
         },
         "$variable[V2]$": {
           "type": "variable",
@@ -52,6 +50,43 @@
         }
       },
       "id": "5a3b3a05-f155-45e4-85d6-1d34b02d781c"
+    },
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "splitIn",
+        "actorId": "$self$",
+        "distance": 5,
+        "speed": 0.5,
+        "time": 0.5,
+        "frames": 30,
+        "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 0
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 0
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V5]$": {
+          "type": "variable",
+          "value": "L5"
+        }
+      },
+      "id": "ca51f646-8e53-4ee1-8e48-215dec0cd498"
     }
   ],
   "playerHit1Script": [],

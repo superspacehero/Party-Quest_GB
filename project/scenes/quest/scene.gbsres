@@ -25,12 +25,12 @@
       "args": {
         "customEventId": "4cf61d7a-cf8b-41d7-904b-f49a910d4552",
         "$variable[V0]$": {
-          "type": "variable",
-          "value": "T0"
+          "type": "number",
+          "value": 0
         },
         "$variable[V1]$": {
-          "type": "variable",
-          "value": "T1"
+          "type": "number",
+          "value": 0
         },
         "$variable[V2]$": {
           "type": "variable",
@@ -50,6 +50,18 @@
         }
       },
       "id": "0c58fc94-d4f1-4387-99b4-610c019dc4e3"
+    },
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "splitIn",
+        "actorId": "$self$",
+        "distance": 5,
+        "speed": 0.5,
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "2a36c72e-87e0-4fe0-aad2-908ff673e4a6"
     }
   ],
   "playerHit1Script": [],
