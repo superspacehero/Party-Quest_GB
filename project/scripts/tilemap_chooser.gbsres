@@ -1,0 +1,182 @@
+{
+  "_resourceType": "script",
+  "id": "6e83a10b-378e-4665-9a65-d695afb05a8a",
+  "name": "Tilemap Chooser",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "X",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Y",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "9",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_COPY_BKG_SUBMAP_TO_BKG_TILESET",
+            "args": {
+              "sceneId": "a9d3a234-e195-4eaf-9951-2ffd9bbe8b32",
+              "scene_bank": {
+                "type": "expression",
+                "value": "$09$ >> 8"
+              },
+              "scene_ptr": {
+                "type": "variable",
+                "value": "9"
+              },
+              "source_x": {
+                "type": "variable",
+                "value": "3"
+              },
+              "source_y": {
+                "type": "variable",
+                "value": "4"
+              },
+              "dest_x": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "dest_y": {
+                "type": "variable",
+                "value": "V1"
+              },
+              "w": {
+                "type": "number",
+                "value": 2
+              },
+              "h": {
+                "type": "number",
+                "value": 2
+              },
+              "copy_attr": "background",
+              "overlay_x": {
+                "type": "number",
+                "value": 0
+              },
+              "overlay_y": {
+                "type": "number",
+                "value": 0
+              },
+              "use_far_ptr": false
+            },
+            "id": "ac5d36e7-221d-43e8-a417-5e23f39a5371"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_COPY_BKG_SUBMAP_TO_BKG_TILESET",
+            "args": {
+              "sceneId": "4ff80273-1b57-4bd7-9914-642947b639a2",
+              "scene_bank": {
+                "type": "expression",
+                "value": "$09$ >> 8"
+              },
+              "scene_ptr": {
+                "type": "variable",
+                "value": "9"
+              },
+              "source_x": {
+                "type": "variable",
+                "value": "3"
+              },
+              "source_y": {
+                "type": "variable",
+                "value": "4"
+              },
+              "dest_x": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "dest_y": {
+                "type": "variable",
+                "value": "V1"
+              },
+              "w": {
+                "type": "number",
+                "value": 2
+              },
+              "h": {
+                "type": "number",
+                "value": 2
+              },
+              "copy_attr": "background",
+              "overlay_x": {
+                "type": "number",
+                "value": 0
+              },
+              "overlay_y": {
+                "type": "number",
+                "value": 0
+              },
+              "use_far_ptr": false
+            },
+            "id": "25186989-2bd1-4034-9719-668b69b3c57d"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "861c948e-50c2-461d-b45d-d7210e9b0bf1"
+    }
+  ]
+}

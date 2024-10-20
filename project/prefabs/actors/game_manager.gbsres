@@ -18,6 +18,11 @@
         "actorId": "$self$"
       },
       "id": "2ba186b7-c82c-4b6c-985e-42aaf4fa4924"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "78665498-e00f-4e66-898d-81b2421ed2e8"
     }
   ],
   "updateScript": [
@@ -55,7 +60,58 @@
             "id": "061829f6-42b2-44f7-aa82-cc8a1b386bc9"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "a",
+                "b"
+              ],
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {},
+                  "id": "e772db7e-e375-401e-a24c-fb1bca2e287c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {},
+                        "id": "f38b9e60-6953-45ab-b8fa-12f6fd7130b3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "27087fc3-e9c3-4b22-9e6a-cf1a8a758dc4"
+                }
+              ]
+            },
+            "id": "800b708d-58ca-45d8-963c-abd69a1a39cc"
+          }
+        ]
       },
       "id": "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7"
     }

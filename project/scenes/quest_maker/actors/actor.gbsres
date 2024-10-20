@@ -14,11 +14,119 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {
-    "a4184a40-8249-4fd4-8ae9-41269d0583e0": {
-      "id": "a4184a40-8249-4fd4-8ae9-41269d0583e0",
+    "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7": {
+      "id": "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7",
       "args": {
-        "engineFieldKey": "wrap_player",
-        "value": "L0"
+        "__collapseElse": false
+      }
+    },
+    "e772db7e-e375-401e-a24c-fb1bca2e287c": {
+      "id": "e772db7e-e375-401e-a24c-fb1bca2e287c",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "78665498-e00f-4e66-898d-81b2421ed2e8": {
+      "id": "78665498-e00f-4e66-898d-81b2421ed2e8",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "800b708d-58ca-45d8-963c-abd69a1a39cc": {
+      "id": "800b708d-58ca-45d8-963c-abd69a1a39cc",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "select"
+        ],
+        "__collapseElse": false
+      }
+    },
+    "bb89a930-ca32-4bcd-9605-2c72c2e60199": {
+      "id": "bb89a930-ca32-4bcd-9605-2c72c2e60199",
+      "args": {
+        "variable": "L0",
+        "flag": 2
+      }
+    },
+    "7e4dc7c2-dedf-4e3a-9a4b-860486d4f572": {
+      "id": "7e4dc7c2-dedf-4e3a-9a4b-860486d4f572",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "f38b9e60-6953-45ab-b8fa-12f6fd7130b3": {
+      "id": "f38b9e60-6953-45ab-b8fa-12f6fd7130b3",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "03c9fc0a-0c18-426e-9730-aac76b8998ed": {
+      "id": "03c9fc0a-0c18-426e-9730-aac76b8998ed",
+      "args": {
+        "variable": "L0",
+        "flag": 1
+      }
+    },
+    "27087fc3-e9c3-4b22-9e6a-cf1a8a758dc4": {
+      "id": "27087fc3-e9c3-4b22-9e6a-cf1a8a758dc4",
+      "args": {
+        "condition": {
+          "type": "or",
+          "valueA": {
+            "type": "gte",
+            "valueA": {
+              "type": "shr",
+              "valueA": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
+          },
+          "valueB": {
+            "type": "gte",
+            "valueA": {
+              "type": "shr",
+              "valueA": {
+                "type": "variable",
+                "value": "0"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
+          }
+        }
       }
     }
   },

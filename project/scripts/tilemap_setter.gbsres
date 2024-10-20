@@ -1,0 +1,119 @@
+{
+  "_resourceType": "script",
+  "id": "19c91c0a-c62f-478d-80fd-310e27c7eecf",
+  "name": "Tilemap Setter",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Direction",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "9",
+              "expression": "$09$ + 1"
+            },
+            "id": "cdad1647-4939-412a-9e08-6347570fc490"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                  "args": {
+                    "variable": "9",
+                    "expression": "$09$ - 1"
+                  },
+                  "id": "9efe6791-e1aa-4445-a41b-c5fe828564aa"
+                }
+              ],
+              "false": []
+            },
+            "id": "224e0ea2-a519-4ae2-8401-830da17489da"
+          }
+        ]
+      },
+      "id": "da002e8d-ef5f-42e5-89bc-5006c270c6bf"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "9",
+        "expression": "($09$ + 2) % 2"
+      },
+      "id": "794913e0-fde6-4f43-96d7-281ccb6a68aa"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "3",
+        "expression": "($03$ + 20) % 20"
+      },
+      "id": "de09d89b-85fc-4485-867f-a837ab67c457"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "4",
+        "expression": "($04$ + 12) % 12"
+      },
+      "id": "ede8d10c-f325-49e1-87c7-48001f81d965"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6e83a10b-378e-4665-9a65-d695afb05a8a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 17
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 14
+        }
+      },
+      "id": "0313d21b-5c8e-4205-becc-15ba26867495"
+    }
+  ]
+}

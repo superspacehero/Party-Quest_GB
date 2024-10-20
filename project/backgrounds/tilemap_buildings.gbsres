@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "adb1b9a4-eb56-4063-bff3-b61f055d3bad",
+  "name": "tilemap_buildings",
+  "symbol": "bg_tilemap_buildings",
+  "width": 20,
+  "height": 12,
+  "imageWidth": 160,
+  "imageHeight": 96,
+  "filename": "tilemap_buildings.png",
+  "tileColors": "015e+026+01e+026+011e+028+01c+028+002+01a+028+002+01a+028+002+0112+002+",
+  "autoColor": false
+}

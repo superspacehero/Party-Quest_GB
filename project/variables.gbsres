@@ -53,6 +53,11 @@
       "symbol": "var_action_y"
     },
     {
+      "id": "9",
+      "name": "Map Index",
+      "symbol": "var_map_index"
+    },
+    {
       "id": "f73f031e-c329-457f-a445-e20f80f8ee02__L0",
       "name": "Position",
       "symbol": "var_position"

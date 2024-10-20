@@ -20,8 +20,6 @@
 #define ADVENTURE_CAMERA_DEADZONE 8
 #endif
 
-UBYTE initialized = 0;
-
 WORD dimensions_x = 160;
 WORD dimensions_y = 88;
 UBYTE wrap_player = 1;
@@ -65,12 +63,6 @@ void adventure_update_sprite_mode(WORD new_direction) BANKED
 
 void adventure_init(void) BANKED
 {
-	if (initialized)
-	{
-		return;
-	}
-	initialized = 1;
-
 	wrapping = FALSE;
 
 	// Set camera to follow player
@@ -477,7 +469,7 @@ void adventure_update(void) BANKED
 		}
 	}
 
-	if (INPUT_A_PRESSED && initialized)
+	if (INPUT_A_PRESSED)
 	{
 		if (!hit_actor)
 		{
