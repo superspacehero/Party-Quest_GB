@@ -11,19 +11,7 @@
   "persistent": false,
   "collisionGroup": "",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "0",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "0ee0e507-c783-4ecf-adae-5a1336229286"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [
     {

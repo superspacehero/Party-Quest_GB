@@ -14,11 +14,30 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {
-    "a4184a40-8249-4fd4-8ae9-41269d0583e0": {
-      "id": "a4184a40-8249-4fd4-8ae9-41269d0583e0",
+    "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7": {
+      "id": "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7",
       "args": {
-        "engineFieldKey": "wrap_player",
-        "value": "L0"
+        "__collapseElse": false
+      }
+    },
+    "e772db7e-e375-401e-a24c-fb1bca2e287c": {
+      "id": "e772db7e-e375-401e-a24c-fb1bca2e287c",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      }
+    },
+    "78665498-e00f-4e66-898d-81b2421ed2e8": {
+      "id": "78665498-e00f-4e66-898d-81b2421ed2e8",
+      "args": {
+        "customEventId": "0fe8ac34-a73d-496f-beeb-bd1bad690666",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
       }
     }
   },

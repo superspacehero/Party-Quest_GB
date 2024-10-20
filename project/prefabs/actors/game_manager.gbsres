@@ -18,6 +18,11 @@
         "actorId": "$self$"
       },
       "id": "2ba186b7-c82c-4b6c-985e-42aaf4fa4924"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "78665498-e00f-4e66-898d-81b2421ed2e8"
     }
   ],
   "updateScript": [
@@ -55,7 +60,13 @@
             "id": "061829f6-42b2-44f7-aa82-cc8a1b386bc9"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {},
+            "id": "e772db7e-e375-401e-a24c-fb1bca2e287c"
+          }
+        ]
       },
       "id": "b2f2742a-245c-49ae-bd80-ffa95cfd6ec7"
     }
