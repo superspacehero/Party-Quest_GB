@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 96,
   "filename": "tilemap_buildings.png",
-  "tileColors": "015e+026+01e+026+011e+028+01c+028+002+01a+028+002+01a+028+002+0112+002+",
+  "tileColors": "0196+028+01c+028+002+01a+028+002+01a+028+002+0112+002+",
   "autoColor": false
 }

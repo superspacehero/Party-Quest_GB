@@ -51,52 +51,30 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_COPY_BKG_SUBMAP_TO_BKG_TILESET",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "sceneId": "a9d3a234-e195-4eaf-9951-2ffd9bbe8b32",
-                    "scene_bank": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "scene_ptr": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "source_x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "source_y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "dest_x": {
-                      "type": "variable",
-                      "value": "1"
-                    },
-                    "dest_y": {
-                      "type": "variable",
-                      "value": "2"
-                    },
-                    "w": {
-                      "type": "number",
-                      "value": 2
-                    },
-                    "h": {
-                      "type": "number",
-                      "value": 2
-                    },
-                    "copy_attr": "background",
-                    "overlay_x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "overlay_y": {
+                    "customEventId": "cccde2f6-3a56-4333-9f74-c7d36599e4dc",
+                    "$variable[V0]$": {
                       "type": "number",
                       "value": 0
                     }
                   },
-                  "id": "e2f39a9a-a990-4eee-a4a3-9ecb2a585e4e"
+                  "id": "41ad691d-99ab-4081-b211-b8894a997d8d"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "6e83a10b-378e-4665-9a65-d695afb05a8a",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "7"
+                    },
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "8"
+                    }
+                  },
+                  "id": "6fe4b2f2-9250-48ec-80f6-a0d6f29e096d"
                 }
               ]
             },

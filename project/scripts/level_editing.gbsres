@@ -690,12 +690,12 @@
                 "value": 0
               },
               "source_x": {
-                "type": "variable",
-                "value": "7"
+                "type": "number",
+                "value": 0
               },
               "source_y": {
-                "type": "variable",
-                "value": "8"
+                "type": "number",
+                "value": 0
               },
               "dest_x": {
                 "type": "number",

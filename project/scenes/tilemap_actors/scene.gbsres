@@ -6,19 +6,19 @@
   "name": "Tilemap_Actors",
   "symbol": "scene_7",
   "x": 592,
-  "y": 30,
+  "y": 208,
   "width": 20,
-  "height": 18,
+  "height": 12,
   "backgroundId": "c2b9269a-8a96-40e4-a1c9-b9785a39839e",
   "tilesetId": "",
   "paletteIds": [
     "",
     "",
-    "e87e0b93-cb69-4e8c-8c31-70694198acbb",
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "e87e0b93-cb69-4e8c-8c31-70694198acbb"
   ],
   "spritePaletteIds": [],
@@ -27,5 +27,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": ""
 }

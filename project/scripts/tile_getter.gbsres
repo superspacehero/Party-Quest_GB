@@ -1,0 +1,98 @@
+{
+  "_resourceType": "script",
+  "id": "cccde2f6-3a56-4333-9f74-c7d36599e4dc",
+  "name": "Tile Getter",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Get Tile",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_PEEK_DATA",
+      "args": {
+        "variableDest": "V0",
+        "variableSource": "V0",
+        "saveSlot": 0
+      },
+      "id": "76923996-f423-4e3e-891a-fb288d0de47c"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "3",
+        "expression": "$V0$ % 10"
+      },
+      "id": "90d72b88-8af8-4020-a7da-cee5ba06eda9"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$V0$ / 10"
+      },
+      "id": "a5b45a4f-8541-4c06-a778-ec26036d251e"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "4",
+        "expression": "$V0$ % 10"
+      },
+      "id": "4775d8e4-31e4-42a8-8e15-327cd15726a4"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$V0$ / 10"
+      },
+      "id": "1d773250-e8d3-4311-a045-8d9b9c6842ea"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "7",
+        "expression": "$V0$ % 10"
+      },
+      "id": "097cee23-4318-445d-8b2f-d57d27f6b225"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$V0$ / 10"
+      },
+      "id": "382c9a86-852c-4664-8549-1fcba4ef9732"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "8",
+        "expression": "$V0$ % 10"
+      },
+      "id": "2df902e6-53ed-445a-b16c-eb8c50dfc9c8"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "$V0$ / 10"
+      },
+      "id": "0159cb31-be4e-4898-ab23-eec6e9db56ed"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "9",
+        "expression": "$V0$ % 10"
+      },
+      "id": "c5fd9d28-59f3-4da8-a606-116071fd79ae"
+    }
+  ]
+}

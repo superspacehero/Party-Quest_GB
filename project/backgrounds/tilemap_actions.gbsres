@@ -4,9 +4,9 @@
   "name": "tilemap_actions",
   "symbol": "bg_tilemap_actions",
   "width": 20,
-  "height": 18,
+  "height": 12,
   "imageWidth": 160,
-  "imageHeight": 144,
+  "imageHeight": 96,
   "filename": "tilemap_actions.png",
   "tileColors": "07168+",
   "autoColor": false

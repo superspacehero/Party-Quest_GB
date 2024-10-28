@@ -4,9 +4,9 @@
   "name": "tilemap_actors",
   "symbol": "bg_tilemap_actors",
   "width": 20,
-  "height": 18,
+  "height": 12,
   "imageWidth": 160,
-  "imageHeight": 144,
+  "imageHeight": 96,
   "filename": "tilemap_actors.png",
   "tileColors": "07168+",
   "autoColor": false

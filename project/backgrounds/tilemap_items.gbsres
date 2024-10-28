@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "37822524-417f-402b-b1fe-fc864d9619f7",
+  "name": "tilemap_items",
+  "symbol": "bg_tilemap_items",
+  "width": 20,
+  "height": 12,
+  "imageWidth": 160,
+  "imageHeight": 96,
+  "filename": "tilemap_items.png",
+  "tileColors": "07f0+",
+  "autoColor": false
+}
